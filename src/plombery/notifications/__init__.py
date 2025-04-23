@@ -66,7 +66,7 @@ class NotificationManager:
             result = await apobj.async_notify(
                 title=title,
                 body=html,
-                body_format=NotifyFormat.HTML,
+                body_format=NotifyFormat.TEXT,
             )
 
             if result:
